@@ -34,12 +34,86 @@ position: sticky;
 .navbar a:hover {
   background-color: hsl(0, 0%, 10%);
 }
+.layout {
+ display: grid;
+ grid-template-columns: 750px 1fr; 
+ gap: 20px;
+ padding: 20px;
+}
+.left{
+  background-color: #778899;
+  border-radius: 80px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  text-align:center;
+  width:750px;
+  height:800px;
+  overflow-y:auto;
+  color:aliceblue;
+}
 .country-grid{
-  position:static;
   display:grid;
   grid-gap:10px;
-  grid-template-columns: 200px 200px;
-  grid-template-rows: 600px 600px;
-  margin-left:170px;
-  margin-top:170px;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 400px 400px;
+}
+.container{
+  border-radius: 20px;
+  color: white;
+  padding-top: 0px;
+  box-sizing:border-box;
+  border: solid #444;
+  text-align:center;
+}
+.t-left{
+  grid-column:1;
+  grid-row:1;
+  background-image: url("mChina.jpg");
+  background-position:center;
+  background-size:cover;
+  background-color:transparent;
+}
+.t-left:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode:multiply;
+  transition:background-color 0.3s ease;
+}
+.t-right{
+  grid-column:2;
+  grid-row:1;
+  background-image: url("mPortugal.png");
+  background-position:center;
+  background-size:cover;
+  background-color:transparent;
+}
+.t-right:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode:multiply;
+  transition: background-color 0.3s ease;
+}
+.b-left{
+  grid-column:1;
+  grid-row:2;
+  background-image: url("mSweden.jpg");
+  background-position:center;
+  background-size:cover;
+  background-color:transparent;
+}
+.b-left:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode:multiply;
+  transition:background-color 0.3s ease;
+}
+.b-right{
+  grid-column:2;
+  grid-row:2;
+  background-image: url("mAustralia.jpg");
+  background-position:center;
+  background-size:cover;
+  background-color:transparent;
+}
+.b-right:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode:multiply;
+  transition: background-color 0.3s ease;
 }
