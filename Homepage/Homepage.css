@@ -116,7 +116,8 @@ position: sticky;
   background-color: rgba(0, 0, 0, 0.3);
   background-blend-mode:multiply;
   transition: background-color 0.3s ease;
-}.email{ 
+}
+.email{ 
   width: 100%; 
   max-width: 1000px; 
   margin: 40px auto; 
@@ -187,7 +188,8 @@ position: sticky;
 } 
 .subscribe-btn:hover{ 
   background: #660000; 
-} .socials{ 
+} 
+.socials{ 
   display: flex; 
   gap: 10px; 
   margin-top: 15px; 
@@ -201,5 +203,6 @@ position: sticky;
 .socials img:hover{ 
   transform: scale(1.15); 
 }
+
 
 
