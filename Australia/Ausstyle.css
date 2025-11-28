@@ -1,14 +1,14 @@
 /* Fonts available: Felipa, Roboto(variable), Montserrat(variable), Bellefair    */
-
+/*Hid all hyperlinks initial underlines*/
+/*For getting rid of whitespace throughout the whole page*/
 *{
     margin: 0px;
 }
-
+/*Giving the body of the text a background color*/
 body{
-    margin: 0px;
     background-color: rgb(117, 117, 118);
 }
-
+/*Creating the home helper bar that responds to scroll position*/
 #big-bar {
   position: sticky;
   top: 0;
@@ -34,13 +34,14 @@ body{
     text-decoration: none;
     color: white;
 }
-    
+/*For creating the background image of header*/    
 .background{
     background-image: url(images/AusRooOnBeach2_1100x732.png);
     background-size: cover;
     background-repeat: no-repeat;
     height:100vh;
 }
+/*For positioning and chnaging font/style of title*/
 #Title {
   position: relative;
   text-align: center;
@@ -48,7 +49,7 @@ body{
   font-family: Felipa;
   font-size: 80px;
 }
-
+/*Creation of navigation bar*/
 .NavBar ul{
     list-style-type: none;
     margin: 0;
@@ -72,14 +73,14 @@ body{
     float: left;
 }
 
-
+/*Positioning video and matching the background to the black bars*/
 .video{
     text-align: center;
     display: block;
     justify-content: center;
     background-color: rgb(13, 13, 14);
 }
-
+/*Styling of the first paragraph*/
 .intro{
     background-color: hsl(0, 2%, 48%);
     display: inline-flex; 
@@ -110,7 +111,7 @@ body{
     max-width: 600px;
     line-height: 1.5;
 }
-
+/*Styling of the description list*/
 .attractions{
     border-radius: 25px;
    
@@ -151,7 +152,7 @@ body{
     margin-bottom: 15px;
     line-height: 1.5;
 }
-
+/*Styling of the culture div*/
 .culture{
     background-color: hsl(0, 2%, 60%);
     display: flex;
@@ -178,7 +179,7 @@ body{
     max-width: 600px;
     line-height: 1.5;
 }
-
+/*Positioning of the audio element*/
 .music{
     text-align: center;
     background-color: hsl(0, 2%, 60%);
@@ -189,7 +190,7 @@ body{
     margin-top: 15px;
     border-radius: 15px;
 }
-
+/*Styling of the image gallery*/
 #headGallery{
     text-align: center;
     color: rgb(117, 117, 118);
@@ -199,7 +200,7 @@ body{
     font-family:Montserrat, sans-serif;
 }
 #headGallery{
-    transition: color 0.3s;
+    transition: color 0.45s;
 }
 
 #headGallery:hover{
@@ -240,7 +241,7 @@ body{
     color:ivory
 }
 
-
+/*Styling of footer*/
 footer{
     background-color:black;
     text-align: center;
@@ -250,7 +251,7 @@ footer{
     bottom: 0;
     width: 100%;
 }
-
+/*Positioning and styling of icons and their hyperlink instances*/
 .icons{
     margin-top: 10px;
     font-size: 30px;
@@ -271,7 +272,7 @@ footer{
 .icons a:visited{
     color:rgb(165, 26, 229)
 }
-
+/*Making it suitable for all types of devies*/
 @media screen and (max-width: 600px){
     .NavBar li{
         float: none;
@@ -284,6 +285,7 @@ footer{
         margin-bottom: 20px;
     }
 }
+
 
 
 
