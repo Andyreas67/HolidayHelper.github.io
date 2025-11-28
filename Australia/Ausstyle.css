@@ -61,7 +61,7 @@ body{
     text-align: center;
     text-decoration: none;
     display: block;
-    padding: 25px 50px;
+    padding: 25px 85px;
 }
 .NavBar a:hover{
     background-color: hsl(0, 8%, 58%);
@@ -284,6 +284,7 @@ footer{
         margin-bottom: 20px;
     }
 }
+
 
 
 
