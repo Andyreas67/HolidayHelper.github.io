@@ -68,7 +68,7 @@ position: sticky;
 .t-left{
   grid-column:1;
   grid-row:1;
-  background-image: url("mChina.jpg");
+  background-image: url("images/mChina.jpg");
   background-position:center;
   background-size:cover;
   background-color:transparent;
@@ -81,7 +81,7 @@ position: sticky;
 .t-right{
   grid-column:2;
   grid-row:1;
-  background-image: url("mPortugal.png");
+  background-image: url("images/mPortugal.png");
   background-position:center;
   background-size:cover;
   background-color:transparent;
@@ -94,7 +94,7 @@ position: sticky;
 .b-left{
   grid-column:1;
   grid-row:2;
-  background-image: url("mSweden.jpg");
+  background-image: url("images/mSweden.jpg");
   background-position:center;
   background-size:cover;
   background-color:transparent;
@@ -107,7 +107,7 @@ position: sticky;
 .b-right{
   grid-column:2;
   grid-row:2;
-  background-image: url("mAustralia.jpg");
+  background-image: url("images/mAustralia.jpg");
   background-position:center;
   background-size:cover;
   background-color:transparent;
@@ -117,3 +117,4 @@ position: sticky;
   background-blend-mode:multiply;
   transition: background-color 0.3s ease;
 }
+
