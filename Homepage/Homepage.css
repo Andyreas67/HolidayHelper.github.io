@@ -122,7 +122,8 @@ position: sticky;
   max-width: 1000px; 
   margin: 40px auto; 
   padding: 40px 20px; 
-  font-family: Arial, Helvetica, sans-serif; box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; 
+  box-sizing: border-box;
 } 
 .email-title{ 
   text-align: center; 
@@ -203,6 +204,7 @@ position: sticky;
 .socials img:hover{ 
   transform: scale(1.15); 
 }
+
 
 
 
