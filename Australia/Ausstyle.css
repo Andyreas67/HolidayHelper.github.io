@@ -27,6 +27,14 @@ body{
   margin: 0;
 }
 
+#big-bar .logo:hover {
+  color: hsl(0, 0%, 70%);
+}
+#big-bar a{
+    text-decoration: none;
+    color: white;
+}
+    
 .background{
     background-image: url(images/AusRooOnBeach2_1100x732.png);
     background-size: cover;
@@ -276,5 +284,6 @@ footer{
         margin-bottom: 20px;
     }
 }
+
 
 
