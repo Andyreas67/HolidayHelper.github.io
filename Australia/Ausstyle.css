@@ -280,11 +280,8 @@ footer{
     .intro, .culture{
         flex-direction: column;
     }
-    .intro img, .culture img{
-        width: 100%;
-        margin-bottom: 20px;
-    }
 }
+
 
 
 
